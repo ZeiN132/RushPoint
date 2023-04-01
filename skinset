@@ -38,10 +38,10 @@ game:GetService("ReplicatedStorage").Assets.Weapons.Infuser.Default:Destroy()
 wait(0.5)
 game:GetService("ReplicatedStorage").Assets.Weapons.Infuser:FindFirstChild("Beast").Name = "Default"
 wait(0.5)
-local Sentinel = game:GetService("ReplicatedStorage").Assets.Weapons.Sentinel:FindFirstChild("Monarch"):Clone()
-Sentinel.Parent = game:GetService("ReplicatedStorage").Assets.Weapons.Sentinel
-Sentinel.Name = "Monarch"
+local Sentinel = game:GetService("ReplicatedStorage").Assets.Weapons.Sentinel:FindFirstChild("Vibrant Pumpkin"):Clone()
+Sentinel.Parent = game:GetService("ReplicatedStorage").Assets.Weapons.Knife
+Sentinel.Name = "Vibrant Pumpkin"
 wait(0.5)
 game:GetService("ReplicatedStorage").Assets.Weapons.Sentinel.Default:Destroy()
 wait(0.5)
-game:GetService("ReplicatedStorage").Assets.Weapons.Sentinel:FindFirstChild("Monarch").Name = "Default"
+game:GetService("ReplicatedStorage").Assets.Weapons.Sentinel:FindFirstChild("Vibrant Pumpkin").Name = "Default"
