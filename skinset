@@ -1,0 +1,47 @@
+local knife = game:GetService("ReplicatedStorage").Assets.Weapons.Knife:FindFirstChild("Sweet Delight"):Clone()
+knife.Parent = game:GetService("ReplicatedStorage").Assets.Weapons.Knife
+knife.Name = "Sweet Delight"
+wait(0.5)
+game:GetService("ReplicatedStorage").Assets.Weapons.Knife.Default:Destroy()
+wait(0.5)
+game:GetService("ReplicatedStorage").Assets.Weapons.Knife:FindFirstChild("Sweet Delight").Name = "Default"
+wait(0.5)
+local Chancellor = game:GetService("ReplicatedStorage").Assets.Weapons.Chancellor:FindFirstChild("Cupid's Choice"):Clone()
+Chancellor.Parent = game:GetService("ReplicatedStorage").Assets.Weapons.Chancellor
+Chancellor.Name = "Cupid's Choice"
+wait(0.5)
+game:GetService("ReplicatedStorage").Assets.Weapons.Chancellor.Default:Destroy()
+wait(0.5)
+game:GetService("ReplicatedStorage").Assets.Weapons.Chancellor:FindFirstChild("Cupid's Choice").Name = "Default"
+wait(0.5)
+local Eclipse = game:GetService("ReplicatedStorage").Assets.Weapons.Eclipse:FindFirstChild("Valentines Waifu"):Clone()
+Eclipse.Parent = game:GetService("ReplicatedStorage").Assets.Weapons.Eclipse
+Eclipse.Name = "Valentines Waifu"
+wait(0.5)
+game:GetService("ReplicatedStorage").Assets.Weapons.Eclipse.Default:Destroy()
+wait(0.5)
+game:GetService("ReplicatedStorage").Assets.Weapons.Eclipse:FindFirstChild("Valentines Waifu").Name = "Default"
+wait(0.5)
+local Crimson = game:GetService("ReplicatedStorage").Assets.Weapons.Crimson:FindFirstChild("Valentines Waifu"):Clone()
+Crimson.Parent = game:GetService("ReplicatedStorage").Assets.Weapons.Crimson
+Crimson.Name = "Valentines Waifu"
+wait(0.5)
+game:GetService("ReplicatedStorage").Assets.Weapons.Crimson.Default:Destroy()
+wait(0.5)
+game:GetService("ReplicatedStorage").Assets.Weapons.Crimson:FindFirstChild("Valentines Waifu").Name = "Default"
+wait(0.5)
+local Infuser = game:GetService("ReplicatedStorage").Assets.Weapons.Infuser:FindFirstChild("Beast"):Clone()
+Infuser.Parent = game:GetService("ReplicatedStorage").Assets.Weapons.Infuser
+Infuser.Name = "Beast"
+wait(0.5)
+game:GetService("ReplicatedStorage").Assets.Weapons.Infuser.Default:Destroy()
+wait(0.5)
+game:GetService("ReplicatedStorage").Assets.Weapons.Infuser:FindFirstChild("Beast").Name = "Default"
+wait(0.5)
+local Sentinel = game:GetService("ReplicatedStorage").Assets.Weapons.Sentinel:FindFirstChild("Monarch"):Clone()
+Sentinel.Parent = game:GetService("ReplicatedStorage").Assets.Weapons.Sentinel
+Sentinel.Name = "Monarch"
+wait(0.5)
+game:GetService("ReplicatedStorage").Assets.Weapons.Sentinel.Default:Destroy()
+wait(0.5)
+game:GetService("ReplicatedStorage").Assets.Weapons.Sentinel:FindFirstChild("Monarch").Name = "Default"
